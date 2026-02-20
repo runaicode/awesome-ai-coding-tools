@@ -1,154 +1,189 @@
 # Awesome AI Coding Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of AI coding tools, assistants, and editors — reviewed and ranked by engineers who ship production code.
+> A curated list of AI-powered tools for software development — editors, assistants, code review, testing, documentation, DevOps, and more.
 
-Maintained by [RunAICode.ai](https://runaicode.ai) — AI coding tools reviewed by engineers, for engineers.
+**Last updated: February 2026** | Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
 
 ## Contents
 
 - [AI Code Editors](#ai-code-editors)
-- [AI Code Completion](#ai-code-completion)
-- [AI Coding Agents](#ai-coding-agents)
+- [AI Coding Assistants](#ai-coding-assistants)
 - [AI Code Review](#ai-code-review)
-- [AI Documentation](#ai-documentation)
-- [AI Testing](#ai-testing)
+- [AI Testing Tools](#ai-testing-tools)
+- [AI Documentation Tools](#ai-documentation-tools)
 - [AI DevOps & Infrastructure](#ai-devops--infrastructure)
-- [AI API & Backend](#ai-api--backend)
-- [AI Frontend](#ai-frontend)
-- [Prompt Engineering for Code](#prompt-engineering-for-code)
-- [Benchmarks & Evaluation](#benchmarks--evaluation)
+- [AI Terminal & CLI Tools](#ai-terminal--cli-tools)
+- [AI Database Tools](#ai-database-tools)
+- [AI Frontend & Design Tools](#ai-frontend--design-tools)
+- [AI API Development](#ai-api-development)
 
 ---
 
 ## AI Code Editors
 
-Full IDE or editor environments rebuilt around AI assistance.
+Full-featured editors and IDEs with deep AI integration.
 
-| Tool | Pricing | Our Review | Notes |
-|------|---------|------------|-------|
-| [Cursor](https://cursor.com) | Free / $20/mo Pro | [Review](https://runaicode.ai/reviews/cursor-ai/) | VS Code fork with deep AI integration. Multi-file editing, composer, agent mode. |
-| [Windsurf](https://codeium.com/windsurf) | Free / $15/mo Pro | [Review](https://runaicode.ai/reviews/windsurf/) | VS Code-based with Cascade multi-step agent. Competitive pricing. |
-| [Zed](https://zed.dev) | Free (open source) | — | Rust-based editor with built-in AI assistant. Fast, multiplayer editing. |
-| [Void](https://voideditor.com) | Free (open source) | — | Open-source AI code editor. Early stage. |
-| [PearAI](https://trypear.ai) | Free (open source) | — | Open-source AI editor built on VS Code. Community-driven. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [Cursor](https://cursor.com) | VS Code fork with native AI chat, code generation, and multi-file editing | Freemium |
+| [Windsurf](https://codeium.com/windsurf) | AI-native IDE by Codeium with Cascade multi-step agent and deep codebase awareness | Freemium |
+| [Zed](https://zed.dev) | High-performance editor with built-in AI assistant, collaborative editing, and language model integration | Free (Open Source) |
+| [Void](https://voideditor.com) | Open-source AI code editor — privacy-first alternative to Cursor with local model support | Free (Open Source) |
+| [PearAI](https://trypear.ai) | Open-source AI code editor with integrated chat, inline generation, and multi-model support | Freemium |
+| [Aide](https://aide.dev) | AI-native IDE with proactive code suggestions, multi-file context, and deep language support | Free (Open Source) |
+| [Trae](https://trae.ai) | AI-powered IDE by ByteDance with Builder agent for autonomous multi-file development | Free |
 
-## AI Code Completion
+## AI Coding Assistants
 
-Inline autocomplete and suggestion tools that work inside your existing editor.
+Plugins, extensions, and standalone tools that assist with code generation and completion.
 
-| Tool | Pricing | Our Review | Notes |
-|------|---------|------------|-------|
-| [GitHub Copilot](https://github.com/features/copilot) | Free / $10/mo Pro / $39/mo Pro+ | [Review](https://runaicode.ai/reviews/github-copilot/) | The original. Agent mode, coding agent, multi-model (GPT-4.1, Claude, Gemini). |
-| [Tabnine](https://tabnine.com) | Free / $12/mo Pro | — | Enterprise-focused. Runs locally, no code leaves your machine. |
-| [Codeium](https://codeium.com) | Free / $12/mo Pro | — | Free tier with solid completions. Powers Windsurf editor. |
-| [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) | Free / included with AWS | — | Best for AWS-heavy workflows. Built-in security scanning. |
-| [Supermaven](https://supermaven.com) | Free / $10/mo Pro | — | Claims fastest completions (300ms). Large context window. |
-
-## AI Coding Agents
-
-Autonomous agents that can plan, code, test, and iterate with minimal human input.
-
-| Tool | Pricing | Our Review | Notes |
-|------|---------|------------|-------|
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Pay-per-use (API) | [Review](https://runaicode.ai/reviews/claude-code/) | Terminal-based agentic coding. Multi-file refactors, git integration, hooks system. |
-| [OpenClaw](https://github.com/All-Hands-AI/OpenHands) | Free (open source) | [Comparison](https://runaicode.ai/comparisons/openclaw-vs-claude-code/) | Open-source coding agent. Self-hostable. Active community. |
-| [Devin](https://devin.ai) | $500/mo | — | First "AI software engineer." Autonomous task completion with its own environment. |
-| [SWE-agent](https://swe-agent.com) | Free (open source) | — | Research agent from Princeton. Solves GitHub issues autonomously. |
-| [Aider](https://aider.chat) | Free (open source) | — | Terminal-based pair programming. Works with any LLM. Git-aware. |
-| [Mentat](https://mentat.ai) | Free (open source) | — | Context-aware coding agent for existing codebases. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [GitHub Copilot](https://github.com/features/copilot) | AI pair programmer by GitHub/OpenAI — inline suggestions, chat, and agent mode across VS Code, JetBrains, and CLI | Freemium |
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic's agentic CLI for Claude — autonomous coding with terminal access, multi-file editing, and git integration | Paid |
+| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS AI assistant for code generation, transformation, and security scanning across IDEs | Freemium |
+| [Codeium](https://codeium.com) | Free AI code completion with support for 70+ languages and all major IDEs | Freemium |
+| [Tabnine](https://www.tabnine.com) | AI code assistant with personalized completions trained on your codebase, runs locally or in the cloud | Freemium |
+| [Sourcegraph Cody](https://sourcegraph.com/cody) | AI assistant with deep codebase context via Sourcegraph's code intelligence and search | Freemium |
+| [Continue](https://continue.dev) | Open-source AI code assistant — connect any model (local or cloud) to VS Code or JetBrains | Free (Open Source) |
+| [Supermaven](https://supermaven.com) | Fastest AI code completion with 1M token context window and deep repository understanding | Freemium |
+| [Codestory](https://codestory.ai) | AI-powered code editor with deep semantic understanding and automated refactoring capabilities | Free (Beta) |
+| [Aider](https://aider.chat) | Terminal-based AI pair programmer — works with any LLM to edit code in your local git repo | Free (Open Source) |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Open-source AI software engineer that can write code, run commands, and browse the web | Free (Open Source) |
+| [Devin](https://devin.ai) | Autonomous AI software engineer by Cognition — plans, writes, debugs, and deploys code | Paid |
+| [Codex CLI](https://github.com/openai/codex) | OpenAI's open-source coding agent that runs in your terminal with sandboxed execution | Free (Open Source) |
 
 ## AI Code Review
 
-Tools that review pull requests, catch bugs, and suggest improvements.
+Tools that analyze pull requests, catch bugs, and enforce standards.
 
-| Tool | Pricing | Notes |
-|------|---------|-------|
-| [CodeRabbit](https://coderabbit.ai) | Free / $15/mo Pro | AI-powered PR reviews. Integrates with GitHub/GitLab. |
-| [Sourcery](https://sourcery.ai) | Free / $14/mo Pro | Python-focused refactoring and review suggestions. |
-| [Codacy](https://codacy.com) | Free / $15/mo | Automated code quality with AI-powered analysis. |
-| [Qodo (formerly CodiumAI)](https://qodo.ai) | Free / Custom | AI test generation and code integrity analysis. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [CodeRabbit](https://coderabbit.ai) | AI-powered code review for GitHub/GitLab PRs — line-by-line feedback, security analysis, and auto-summaries | Freemium |
+| [Codacy](https://www.codacy.com) | Automated code quality with AI-powered review, security scanning, and coverage tracking | Freemium |
+| [Qodo (formerly CodiumAI)](https://www.qodo.ai) | AI code integrity platform — generates tests, reviews PRs, and suggests improvements | Freemium |
+| [Sourcery](https://sourcery.ai) | AI code reviewer that suggests refactoring improvements and enforces code quality standards | Freemium |
+| [Ellipsis](https://www.ellipsis.dev) | AI code reviewer that fixes bugs, enforces style, and auto-generates PR descriptions | Freemium |
+| [Bito](https://bito.ai) | AI assistant for code review, documentation, and explaining complex code in your IDE | Freemium |
+| [Greptile](https://greptile.com) | AI code review bot that understands your entire codebase for context-aware PR reviews | Paid |
+| [What The Diff](https://whatthediff.ai) | AI-powered PR review assistant — generates human-readable summaries and catches issues | Freemium |
 
-## AI Documentation
+## AI Testing Tools
 
-Auto-generate docs, comments, and technical writing from code.
+Automated test generation, visual regression testing, and QA automation.
 
-| Tool | Pricing | Notes |
-|------|---------|-------|
-| [Mintlify](https://mintlify.com) | Free / $150/mo Pro | AI-powered documentation platform. Auto-generates from code. |
-| [Swimm](https://swimm.io) | Free / $19/mo | Continuous documentation that stays in sync with code. |
-| [Stenography](https://stenography.dev) | $9/mo | Auto-documents entire codebases. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [Qodo (CodiumAI)](https://www.qodo.ai) | Generates meaningful unit tests with edge cases by analyzing code behavior | Freemium |
+| [Meticulous](https://meticulous.ai) | AI-powered visual regression testing — automatically detects UI changes from your PRs | Paid |
+| [Testim](https://www.testim.io) | AI-powered E2E test authoring and maintenance with self-healing locators | Paid |
+| [Mabl](https://www.mabl.com) | Low-code AI test automation for web apps with auto-healing and visual testing | Paid |
+| [Carbonate](https://carbonate.dev) | Natural language test generation — describe tests in plain English, get Playwright/Selenium scripts | Free (Beta) |
+| [CodiumAI PR-Agent](https://github.com/Codium-ai/pr-agent) | Open-source tool to auto-generate PR descriptions, reviews, and test suggestions | Free (Open Source) |
+| [Octomind](https://octomind.dev) | AI-powered E2E test generation — auto-discovers and maintains Playwright tests | Freemium |
 
-## AI Testing
+## AI Documentation Tools
 
-Generate tests, find edge cases, and improve coverage with AI.
+Generate, maintain, and improve code documentation with AI.
 
-| Tool | Pricing | Notes |
-|------|---------|-------|
-| [Qodo](https://qodo.ai) | Free / Custom | Generates meaningful tests. Understands code behavior, not just structure. |
-| [Codium AI](https://codium.ai) | Free / Custom | Test generation with context-aware suggestions. |
-| [Diffblue Cover](https://diffblue.com) | Enterprise | Java-focused. Generates unit tests at scale. |
-| [CodiumAI PR-Agent](https://github.com/Codium-ai/pr-agent) | Free (open source) | AI-first pull request analysis and review. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [Mintlify](https://mintlify.com) | AI-powered documentation platform — generates docs from code with beautiful themes | Freemium |
+| [Swimm](https://swimm.io) | AI-generated documentation that stays in sync with your code automatically | Freemium |
+| [Readme.so](https://readme.so) | AI-assisted README builder with templates and live preview | Free |
+| [Stenography](https://stenography.dev) | AI documentation engine that auto-generates inline documentation for your codebase | Paid |
+| [Docify](https://docify.ai4code.io) | Auto-generates JSDoc/TSDoc/Python docstrings from your code with AI | Freemium |
+| [Theneo](https://www.theneo.io) | AI-powered API documentation — auto-generates from OpenAPI specs with interactive examples | Freemium |
 
 ## AI DevOps & Infrastructure
 
-AI tools for infrastructure, deployment, and operations.
+AI tools for CI/CD, infrastructure management, monitoring, and deployment.
 
-| Tool | Pricing | Notes |
-|------|---------|-------|
-| [Pulumi AI](https://pulumi.com/ai) | Free with Pulumi | Natural language to infrastructure code. |
-| [Kubiya](https://kubiya.ai) | Custom | AI-powered DevOps automation platform. |
-| [Harness AIDA](https://harness.io) | Custom | AI assistant for CI/CD pipelines. |
-| [env0](https://env0.com) | Free / Custom | Infrastructure automation with AI cost estimation. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [Harness AI](https://harness.io) | AI-powered DevOps platform — CI/CD, feature flags, and cloud cost management with AIDA assistant | Freemium |
+| [Kubiya](https://kubiya.ai) | AI-powered DevOps assistant — conversational infrastructure management and workflow automation | Paid |
+| [env0](https://www.env0.com) | AI-enhanced IaC automation for Terraform, Pulumi, and CloudFormation with cost estimation | Freemium |
+| [Spacelift](https://spacelift.io) | Infrastructure management with AI-powered drift detection and policy enforcement | Paid |
+| [k8sgpt](https://k8sgpt.ai) | AI-powered Kubernetes diagnostics — scans clusters and explains issues in plain English | Free (Open Source) |
+| [Firefly](https://www.firefly.ai) | AI-powered cloud asset management — discovers, codifies, and manages infrastructure | Paid |
 
-## AI API & Backend
+## AI Terminal & CLI Tools
 
-AI-assisted backend development, API design, and database tools.
+AI assistants that work directly in your terminal.
 
-| Tool | Pricing | Notes |
-|------|---------|-------|
-| [Supabase AI](https://supabase.com) | Free / $25/mo | AI SQL editor. Natural language to PostgreSQL queries. |
-| [Outerbase](https://outerbase.com) | Free / $29/mo | AI-powered database interface and query builder. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic's agentic CLI — reads/writes files, runs commands, manages git, and reasons about your codebase | Paid |
+| [Warp](https://www.warp.dev) | AI-powered terminal with natural language command search, inline AI assistant, and smart completions | Freemium |
+| [GitHub Copilot CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli) | Translate natural language into shell commands, explain commands, and fix errors | Paid (Copilot sub) |
+| [ShellGPT](https://github.com/TheR1D/shell_gpt) | CLI tool to generate shell commands, code snippets, and documentation from natural language | Free (Open Source) |
+| [AI Shell](https://github.com/BuilderIO/ai-shell) | Natural language to shell command translator — like GitHub Copilot for your terminal | Free (Open Source) |
+| [Gorilla CLI](https://github.com/gorilla-llm/gorilla-cli) | AI-powered CLI that generates precise API and command-line calls from natural language | Free (Open Source) |
+| [Aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool — chat, execute commands, RAG, and function calling in your terminal | Free (Open Source) |
 
-## AI Frontend
+## AI Database Tools
 
-AI tools for building user interfaces and web applications.
+AI-powered tools for database management, query generation, and optimization.
 
-| Tool | Pricing | Notes |
-|------|---------|-------|
-| [v0](https://v0.dev) | Free / $20/mo | Vercel's AI UI generator. React/Next.js components from text. |
-| [bolt.new](https://bolt.new) | Free / $20/mo | Full-stack web app generation in the browser. |
-| [Lovable](https://lovable.dev) | $20/mo | AI app builder. Generates full applications from descriptions. |
-| [Replit Agent](https://replit.com) | $25/mo | Build and deploy apps from natural language. |
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [AI2sql](https://ai2sql.io) | Natural language to SQL converter — generate queries without writing SQL | Freemium |
+| [Outerbase](https://outerbase.com) | AI-powered database interface — natural language queries, visualizations, and data editing | Freemium |
+| [Vanna AI](https://vanna.ai) | Open-source AI SQL agent — train on your schema, generate accurate queries via RAG | Free (Open Source) |
+| [Azimutt](https://azimutt.app) | AI-powered database exploration — auto-generates ERDs and lets you query with natural language | Freemium |
+| [DBChat](https://www.dbchat.ai) | Chat with your database in natural language — supports PostgreSQL, MySQL, SQLite, and more | Freemium |
+| [DataGrip AI](https://www.jetbrains.com/datagrip/) | JetBrains database IDE with integrated AI assistant for SQL generation and explanation | Paid |
 
-## Prompt Engineering for Code
+## AI Frontend & Design Tools
 
-Resources for writing better prompts for AI coding tools.
+AI tools for UI development, design-to-code, and frontend generation.
 
-- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) — Official Claude prompting docs
-- [Cursor Rules Examples](https://cursor.directory) — Community cursor rules directory
-- [Claude Code CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code) — How to configure Claude Code with project instructions
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [v0](https://v0.dev) | Vercel's AI UI generator — describe components in natural language, get React/Tailwind code | Freemium |
+| [Bolt](https://bolt.new) | Full-stack web app builder with AI — generates, runs, and deploys apps in the browser | Freemium |
+| [Lovable](https://lovable.dev) | AI full-stack engineer — builds web apps from natural language with real-time preview | Freemium |
+| [Tempo](https://www.tempo.new) | AI-powered React component builder with visual editor and Figma integration | Freemium |
+| [Screenshot to Code](https://github.com/abi/screenshot-to-code) | Converts screenshots and designs to clean HTML/Tailwind/React code using AI | Free (Open Source) |
+| [Galileo AI](https://www.usegalileo.ai) | AI-powered UI design tool — generates editable designs from text descriptions | Paid (Waitlist) |
 
-## Benchmarks & Evaluation
+## AI API Development
 
-How to measure and compare AI coding tool performance.
+Tools for building, testing, and documenting APIs with AI.
 
-- [SWE-bench](https://swe-bench.github.io) — Industry-standard benchmark for AI coding agents
-- [HumanEval](https://github.com/openai/human-eval) — OpenAI's code generation benchmark
-- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) — Mostly Basic Programming Problems
-- [RunAICode Benchmarks](https://github.com/runaicode/ai-coding-benchmarks) — Our standardized test prompts (coming soon)
+| Tool | Description | Pricing |
+|------|-------------|---------|
+| [Apidog](https://apidog.com) | All-in-one API platform with AI-powered test generation, mock servers, and documentation | Freemium |
+| [Hopscotch](https://hoppscotch.io) | Open-source API development ecosystem with AI-powered request building | Free (Open Source) |
+| [Treblle](https://treblle.com) | AI-powered API observability — auto-generates docs, scores API quality, and detects anomalies | Freemium |
+| [HTTPie AI](https://httpie.io) | Modern API testing client with AI assistant for building and debugging API requests | Freemium |
+
+---
+
+## How to Choose
+
+| Need | Recommended |
+|------|-------------|
+| Full AI IDE experience | Cursor, Windsurf |
+| Best code completion | GitHub Copilot, Supermaven |
+| Autonomous coding agent | Claude Code, Devin, OpenHands |
+| Automated PR reviews | CodeRabbit, Codacy |
+| Test generation | Qodo, Meticulous |
+| AI in the terminal | Claude Code, Warp |
+| Open source & local | Continue, Aider, Void |
+| Frontend generation | v0, Bolt, Lovable |
 
 ---
 
 ## Contributing
 
-Contributions welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding tools, updating entries, and submitting pull requests.
 
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-This list is released under CC0. You can copy, modify, and distribute it without asking permission.
-
----
-
-*Maintained by [RunAICode.ai](https://runaicode.ai) — Reviews and comparisons at [runaicode.ai](https://runaicode.ai)*
+This list is released under CC0. Feel free to use it however you like.
