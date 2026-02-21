@@ -43,6 +43,7 @@ Plugins, extensions, and standalone tools that assist with code generation and c
 |------|-------------|---------|
 | [GitHub Copilot](https://github.com/features/copilot) | AI pair programmer by GitHub/OpenAI — inline suggestions, chat, and agent mode across VS Code, JetBrains, and CLI | Freemium |
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic's agentic CLI for Claude — autonomous coding with terminal access, multi-file editing, and git integration | Paid |
+| [Mantra](https://mantra.gonewx.com) | AI coding session time machine — save, restore, and time-travel through Claude Code, Cursor, and Windsurf sessions. Never lose your AI context. | Free |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS AI assistant for code generation, transformation, and security scanning across IDEs | Freemium |
 | [Codeium](https://codeium.com) | Free AI code completion with support for 70+ languages and all major IDEs | Freemium |
 | [Tabnine](https://www.tabnine.com) | AI code assistant with personalized completions trained on your codebase, runs locally or in the cloud | Freemium |
