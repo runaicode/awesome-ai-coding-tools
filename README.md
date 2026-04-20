@@ -28,6 +28,7 @@ Full-featured editors and IDEs with deep AI integration.
 | Tool | Description | Pricing |
 |------|-------------|---------|
 | [Cursor](https://cursor.com) | VS Code fork with native AI chat, code generation, and multi-file editing | Freemium |
+| [OpenMagic](https://github.com/Kalmuraee/OpenMagic) | Browser-side AI coding toolbar for live web app edits with context capture and approved diffs | Free |
 | [Windsurf](https://codeium.com/windsurf) | AI-native IDE by Codeium with Cascade multi-step agent and deep codebase awareness | Freemium |
 | [Zed](https://zed.dev) | High-performance editor with built-in AI assistant, collaborative editing, and language model integration | Free (Open Source) |
 | [Void](https://voideditor.com) | Open-source AI code editor — privacy-first alternative to Cursor with local model support | Free (Open Source) |
