@@ -51,6 +51,7 @@ Plugins, extensions, and standalone tools that assist with code generation and c
 | [Supermaven](https://supermaven.com) | Fastest AI code completion with 1M token context window and deep repository understanding | Freemium |
 | [Codestory](https://codestory.ai) | AI-powered code editor with deep semantic understanding and automated refactoring capabilities | Free (Beta) |
 | [Aider](https://aider.chat) | Terminal-based AI pair programmer — works with any LLM to edit code in your local git repo | Free (Open Source) |
+| [Agent FM](https://github.com/agentfm-ai/agent-fm) | Local macOS companion for listening to Claude Code and Codex sessions, with Global Mix, blocker alerts, and BYOK narration | Free (Open Source) |
 | [OpenHands](https://github.com/All-Hands-AI/OpenHands) | Open-source AI software engineer that can write code, run commands, and browse the web | Free (Open Source) |
 | [Devin](https://devin.ai) | Autonomous AI software engineer by Cognition — plans, writes, debugs, and deploys code | Paid |
 | [Codex CLI](https://github.com/openai/codex) | OpenAI's open-source coding agent that runs in your terminal with sandboxed execution | Free (Open Source) |
