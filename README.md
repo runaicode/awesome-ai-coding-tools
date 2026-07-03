@@ -119,6 +119,7 @@ AI assistants that work directly in your terminal.
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic's agentic CLI — reads/writes files, runs commands, manages git, and reasons about your codebase | Paid |
 | [Warp](https://www.warp.dev) | AI-powered terminal with natural language command search, inline AI assistant, and smart completions | Freemium |
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli) | Translate natural language into shell commands, explain commands, and fix errors | Paid (Copilot sub) |
+| [Hephaestus](https://github.com/agentlas-ai/Hephaestus) | Routes Claude Code, Codex, and Cursor agents with local skills, memory, and MCP/A2A gates | Free (Open Source) |
 | [ShellGPT](https://github.com/TheR1D/shell_gpt) | CLI tool to generate shell commands, code snippets, and documentation from natural language | Free (Open Source) |
 | [AI Shell](https://github.com/BuilderIO/ai-shell) | Natural language to shell command translator — like GitHub Copilot for your terminal | Free (Open Source) |
 | [Gorilla CLI](https://github.com/gorilla-llm/gorilla-cli) | AI-powered CLI that generates precise API and command-line calls from natural language | Free (Open Source) |
