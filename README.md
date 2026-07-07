@@ -117,9 +117,10 @@ AI assistants that work directly in your terminal.
 | Tool | Description | Pricing |
 |------|-------------|---------|
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic's agentic CLI — reads/writes files, runs commands, manages git, and reasons about your codebase | Paid |
-| [Warp](https://www.warp.dev) | AI-powered terminal with natural language command search, inline AI assistant, and smart completions | Freemium |
 | [GitHub Copilot CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli) | Translate natural language into shell commands, explain commands, and fix errors | Paid (Copilot sub) |
 | [ShellGPT](https://github.com/TheR1D/shell_gpt) | CLI tool to generate shell commands, code snippets, and documentation from natural language | Free (Open Source) |
+| [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) | Local-first agent memory CLI — stores, recalls, forgets, audits, and consolidates project context | Free (Open Source) |
+| [Warp](https://www.warp.dev) | AI-powered terminal with natural language command search, inline AI assistant, and smart completions | Freemium |
 | [AI Shell](https://github.com/BuilderIO/ai-shell) | Natural language to shell command translator — like GitHub Copilot for your terminal | Free (Open Source) |
 | [Gorilla CLI](https://github.com/gorilla-llm/gorilla-cli) | AI-powered CLI that generates precise API and command-line calls from natural language | Free (Open Source) |
 | [Aichat](https://github.com/sigoden/aichat) | All-in-one LLM CLI tool — chat, execute commands, RAG, and function calling in your terminal | Free (Open Source) |
