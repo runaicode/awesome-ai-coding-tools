@@ -76,6 +76,7 @@ Automated test generation, visual regression testing, and QA automation.
 
 | Tool | Description | Pricing |
 |------|-------------|---------|
+| [Agent QA](https://github.com/vostride/agent-qa) | Generates and runs natural-language web/mobile tests with persistent memory and self-healing flows | Free |
 | [Qodo (CodiumAI)](https://www.qodo.ai) | Generates meaningful unit tests with edge cases by analyzing code behavior | Freemium |
 | [Meticulous](https://meticulous.ai) | AI-powered visual regression testing — automatically detects UI changes from your PRs | Paid |
 | [Testim](https://www.testim.io) | AI-powered E2E test authoring and maintenance with self-healing locators | Paid |
