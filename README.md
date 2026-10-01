@@ -61,6 +61,7 @@ Tools that analyze pull requests, catch bugs, and enforce standards.
 
 | Tool | Description | Pricing |
 |------|-------------|---------|
+| [CodeGuard AI](https://javacoder716.gumroad.com/l/codeguard-ai) | Analyzes GitHub pull requests for bugs, security issues, performance problems, and best-practice violations | Paid |
 | [CodeRabbit](https://coderabbit.ai) | AI-powered code review for GitHub/GitLab PRs — line-by-line feedback, security analysis, and auto-summaries | Freemium |
 | [Codacy](https://www.codacy.com) | Automated code quality with AI-powered review, security scanning, and coverage tracking | Freemium |
 | [Qodo (formerly CodiumAI)](https://www.qodo.ai) | AI code integrity platform — generates tests, reviews PRs, and suggests improvements | Freemium |
