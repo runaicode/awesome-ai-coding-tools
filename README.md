@@ -143,6 +143,7 @@ AI tools for UI development, design-to-code, and frontend generation.
 
 | Tool | Description | Pricing |
 |------|-------------|---------|
+| [AppWizzy](https://appwizzy.com/) | Builds web apps with AI prompts, runtime templates, dedicated development VMs, and Git-backed source editing | Freemium |
 | [v0](https://v0.dev) | Vercel's AI UI generator — describe components in natural language, get React/Tailwind code | Freemium |
 | [Bolt](https://bolt.new) | Full-stack web app builder with AI — generates, runs, and deploys apps in the browser | Freemium |
 | [Lovable](https://lovable.dev) | AI full-stack engineer — builds web apps from natural language with real-time preview | Freemium |
