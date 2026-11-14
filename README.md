@@ -27,6 +27,7 @@ Full-featured editors and IDEs with deep AI integration.
 
 | Tool | Description | Pricing |
 |------|-------------|---------|
+| [Althar](https://github.com/AltharIDE/althar) | Coordinates implementation and independent model review in a desktop ADE | Free (Open Source) |
 | [Cursor](https://cursor.com) | VS Code fork with native AI chat, code generation, and multi-file editing | Freemium |
 | [Windsurf](https://codeium.com/windsurf) | AI-native IDE by Codeium with Cascade multi-step agent and deep codebase awareness | Freemium |
 | [Zed](https://zed.dev) | High-performance editor with built-in AI assistant, collaborative editing, and language model integration | Free (Open Source) |
